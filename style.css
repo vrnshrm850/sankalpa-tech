@@ -11,12 +11,19 @@
       position: sticky;
       top: 0;
       background-color: #1e053e;
-      padding: 0px 100px;
+      padding: 0px 150px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       z-index: 1000;
+    }
+    .logo-div {
+      display: flex;
+      align-items: center;
+    }
+    .ghost-white {
+      color: #FAF9F6;
     }
     .logo {
       height: 65px;
@@ -33,12 +40,12 @@
         object-fit: cover;
     }
     .hero {
-      padding: 25px 100px;
+      padding: 25px 150px;
       position: absolute;
       top: 22%;
       color: ghostwhite;
       /* background-image: linear-gradient(to left, white -100%, transparent 58%); */
-      background: linear-gradient(90deg, #1e053e, #301934, transparent 112%);
+      background: linear-gradient(90deg, black, #353935, transparent 100%);
     }
     .background-ghost {
         background-color: #FAF9F6;
@@ -65,6 +72,7 @@
       margin: 0 auto;
     }
     .card {
+      /* display: flex; */
       background-color: #fff;
       border-radius: 3px;
       overflow: hidden;
